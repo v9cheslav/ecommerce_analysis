@@ -36,6 +36,8 @@ Conduct a comprehensive analysis of e-commerce sales data and prepare a report t
 
 All datasets are loaded dynamically from **Google Drive** using public file links.
 
+> Dataset source: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — available on Kaggle.
+
 ### 🔹 [`customers_dataset.csv`](https://drive.google.com/file/d/1ZoCOJYbg4AEt6AfC_zruJWDR697I50m2)
 - `customer_id` — order-specific user ID  
 - `customer_unique_id` — unique user ID (e.g. passport-like)  
@@ -113,7 +115,7 @@ No manual CSV download is required.
 - Further analysis requires additional business context (e.g., product types, acquisition channels, post-purchase experience) to accurately diagnose the causes and propose improvements.
 
 ### 6. 🧩 RFM Segmentation
-- RFM scoring thresholds were defined based on purchase recency (days), frequency (number of orders), and monetary value (in rubles).
+- RFM scoring thresholds were defined based on purchase recency (days), frequency (number of orders), and monetary (in Brazilian real, R$).
 - Customers were segmented into key groups such as **Champions**, **Big Spenders**, **At Risk**, and **Hibernating** based on their shopping behavior.
 - The segmentation provides a foundation for:
   - Targeted marketing campaigns
