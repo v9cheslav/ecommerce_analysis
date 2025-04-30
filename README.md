@@ -17,18 +17,18 @@ This project analyzes customer and sales data from a Brazilian e-commerce platfo
 
 ## 🎯 Goal
 
-Conduct a comprehensive analysis of e-commerce sales data and prepare a report tailored for product management needs.
+Conduct an exploratory analysis of sales data and prepare a report with actionable insights for the Product Manager.
 
 ---
 
 ## ✅ Objectives
 
 1. Identify the number of users who made only one purchase.
-2. Calculate the average number of undelivered orders per month.
+2. Calculate the average monthly number of undelivered orders due to various reasons.
 3. Determine the most frequent purchase day of the week for each product.
-4. Analyze the average number of weekly purchases per user, broken down by month.
-5. Perform a cohort analysis to find the cohort with the highest 3rd-month retention from January to December.
-6. Create an RFM segmentation of users to assess audience quality.
+4. Calculate the average number of weekly purchases per user, broken down by month.
+5. Perform a cohort analysis to identify the user group with the highest third-month retention (from January to December).
+6. Build an RFM segmentation model to evaluate customer quality and behavior.
 
 ---
 
