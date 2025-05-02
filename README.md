@@ -38,18 +38,18 @@ All datasets are loaded dynamically from **Google Drive** using public file link
 
 > Dataset source: [Brazilian E-Commerce Public Dataset by Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) — available on Kaggle.
 
-### 🔹 [`customers_dataset.csv`](https://drive.google.com/file/d/1ZoCOJYbg4AEt6AfC_zruJWDR697I50m2)
+#### 🔹 [`customers_dataset.csv`](https://drive.google.com/file/d/1ZoCOJYbg4AEt6AfC_zruJWDR697I50m2)
 - `customer_id` — order-specific user ID  
 - `customer_unique_id` — unique user ID (e.g. passport-like)  
 - `customer_zip_code_prefix`, `customer_city`, `customer_state` — delivery location data
 
-### 🔹 [`orders_dataset.csv`](https://drive.google.com/file/d/1P8uxPKltLurPY6IM2-7EPE4waQYiNnlE)
+#### 🔹 [`orders_dataset.csv`](https://drive.google.com/file/d/1P8uxPKltLurPY6IM2-7EPE4waQYiNnlE)
 - `order_id` — order ID  
 - `customer_id` — order-specific user ID  
-- `order_status` — order stage (`delivered`, `shipped`, `canceled`, etc.)  
+- `order_status` - order stage (`delivered`, `shipped`, `canceled`, etc.)  
 - Timestamps: purchase, approval, delivery estimate and actual delivery
 
-### 🔹 [`order_items_dataset.csv`](https://drive.google.com/file/d/1wiDB3FyZr3HglR7u6U3z1scJI28dRBVf)
+#### 🔹 [`order_items_dataset.csv`](https://drive.google.com/file/d/1wiDB3FyZr3HglR7u6U3z1scJI28dRBVf)
 - `order_id`, `order_item_id`, `product_id`, `seller_id`  
 - `shipping_limit_date` — deadline for shipping  
 - `price`, `freight_value` — item price and shipping weight
@@ -69,15 +69,15 @@ All datasets are loaded dynamically from **Google Drive** using public file link
 
 You can run this notebook either locally or in the cloud:
 
-### ▶️ Option 1: Run in Google Colab (Recommended)
+### Option 1: Run in Google Colab (Recommended)
 - Click the badge below to open in Colab  
   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/v9cheslav/ecommerce_analysis/blob/main/ecommerce_analysis.ipynb)
 - No setup is required. All datasets are loaded from public Google Drive links automatically.
 
-### 💻 Option 2: Run Locally
+### Option 2: Run Locally
 1. Clone this repository  
    `git clone https://github.com/v9cheslav/ecommerce_analysis.git`
-2. Open `ecommerce_analysis.ipynb` in Jupyter or VS Code
+2. Open `ecommerce_analysis.ipynb` in Jupyter or IDE
 3. Run all cells — datasets will be fetched dynamically from public Google Drive links
 
 No manual CSV download is required.
